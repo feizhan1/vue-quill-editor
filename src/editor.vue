@@ -1,7 +1,7 @@
 <template>
   <div class="quill-editor">
-    <slot name="toolbar"></slot>
     <div ref="editor"></div>
+    <slot name="toolbar"></slot>
   </div>
 </template>
 
